@@ -1,0 +1,16 @@
+PODS:
+  - YHDTestModel (0.1.0)
+
+DEPENDENCIES:
+  - YHDTestModel (from `../`)
+
+EXTERNAL SOURCES:
+  YHDTestModel:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YHDTestModel: a729010206094ff920acd54eb62e8ace5ff2f17d
+
+PODFILE CHECKSUM: 6b72fe7a943f105279ce9fc5e92a99e724f4cfc9
+
+COCOAPODS: 1.7.5
