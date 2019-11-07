@@ -7,6 +7,13 @@
 //
 
 #import "DTPPickView.h"
+#import <Masonry/Masonry.h>
+
+//屏幕高度
+#define kScreenHeight CGRectGetHeight([UIScreen mainScreen].bounds)
+//屏幕宽度
+#define kScreenWidth CGRectGetWidth([UIScreen mainScreen].bounds)
+#define UIColorHex(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
 
 @interface DTPPickView ()<UIPickerViewDelegate,UIPickerViewDataSource>
 

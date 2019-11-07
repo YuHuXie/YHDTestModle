@@ -1,15 +1,22 @@
 PODS:
-  - YHDTestModel (0.1.0)
+  - Masonry (0.6.4)
+  - YHDTestModel (0.1.0):
+    - Masonry (~> 0.6.4)
 
 DEPENDENCIES:
   - YHDTestModel (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Masonry
 
 EXTERNAL SOURCES:
   YHDTestModel:
     :path: "../"
 
 SPEC CHECKSUMS:
-  YHDTestModel: a729010206094ff920acd54eb62e8ace5ff2f17d
+  Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
+  YHDTestModel: 354ed9687c9fe876c13dd13360a29bfaa3ebf2b1
 
 PODFILE CHECKSUM: 6b72fe7a943f105279ce9fc5e92a99e724f4cfc9
 
